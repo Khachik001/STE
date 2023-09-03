@@ -8,7 +8,7 @@ Our GitOps project is designed to automate the entire development and deployment
 
 3. **Amazon Elastic Container Registry (ECR):** The newly built Docker image is pushed to Amazon Elastic Container Registry (ECR). ECR provides secure and scalable storage for container images, making them readily available for deployment.
 
-4. **Argo CD Deployment:** Argo CD, our GitOps continuous delivery tool, continuously monitors the Git repository for changes. When changes are detected, Argo CD ensures that the Kubernetes cluster matches the desired state defined in the Git repository.
+4. **Argo CD Deployment:** Argo CD, our GitOps continuous delivery tool, continuously monitors the Elasti Container Registry (ECR) for changes. When changes are detected, Argo CD ensures that the Kubernetes cluster matches the desired state defined in the Git repository.
 
 5. **Helm Chart for Deployment:** We use Helm charts to define our application deployments. Argo CD leverages Helm to create deployments, manage replica sets, and handle updates seamlessly.
 
