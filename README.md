@@ -8,7 +8,7 @@ Let's dive into the heart of our system by introducing the critical components r
 
 | Component                | Role                                                   | Description                                                  |
 |--------------------------|--------------------------------------------------------|--------------------------------------------------------------|
-| ![Terragrunt](https://example.com/terragrunt.png) | **Terragrunt** | Terragrunt serves as the Infrastructure Maestro. It designs and provisions AWS resources, ensuring that your infrastructure aligns seamlessly with your code. |
+| ![Terragrunt](https://example.com/terragrunt.png) | **Terragrunt** |Designs and provisions AWS resources, ensuring infrastructure aligns seamlessly with code.        |
 | ![GitHub Actions](https://example.com/github-actions.png) | **GitHub Actions** | GitHub Actions acts as the Composer of Containers. It is responsible for creating Docker images with precision, transforming code changes into containerized artifacts. |
 | ![ECR](https://example.com/ecr.png) | **Amazon Elastic Container Registry (ECR)** | ECR functions as the Gallery of Images. It safely stores Docker images, ready to be deployed on the Kubernetes stage. |
 | ![Argo CD](https://example.com/argo-cd.png) | **Argo CD** | Argo CD serves as the Conductor of Deployments. It monitors ECR for new images and orchestrates their deployment to the Kubernetes cluster using Helm charts. |
