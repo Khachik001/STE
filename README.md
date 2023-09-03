@@ -1,41 +1,43 @@
-## 🚀 Automated GitOps Workflow in Action
+## 🚀 Dive into Our Automated GitOps Symphony
 
-Welcome to the heart of our GitOps project, where automation unfolds like a well-orchestrated symphony. This section provides an insightful look into the mechanics of our automated GitOps workflow and the roles played by key components.
+Welcome to the core of our GitOps project, where automation unfolds with the grace of a well-orchestrated symphony. This section offers an illuminating look into the mechanics of our automated GitOps workflow and the integral roles of key components.
 
-### 🛠️ Meet the Ensemble
+### 🎭 Meet the Cast
 
-Allow us to introduce the ensemble cast, each performing a crucial role in our automation masterpiece:
+Allow us to introduce the star-studded cast, each playing an essential role in our automation spectacle:
 
 | Technology             | Role                                                            |
 |------------------------|-----------------------------------------------------------------|
-| <img src="terragrunt.png" width="50" height="50">       | **Terragrunt - The Infrastructure Maestro**<br/>Designs and provisions AWS resources, ensuring infrastructure aligns with code.        |
-| <img src="github-actions.png" width="50" height="50"> | **GitHub Actions - The Composer of Containers**<br/>Creates Docker images with precision, translating code changes into containerized art.   |
-| <img src="ecr.png" width="50" height="50">               | **Amazon Elastic Container Registry (ECR) - The Gallery of Images**<br/>Safely stores Docker images, ready to shine on the Kubernetes stage. |
-| <img src="argo-cd.png" width="50" height="50">          | **Argo CD - The Deployment Conductor**<br/>Monitors ECR for new images and orchestrates their deployment to the Kubernetes cluster using Helm charts. |
-| <img src="helm.png" width="50" height="50">             | **Helm Charts - The Scriptwriters**<br/>Compose intricate deployment blueprints, dictating every aspect of configuration.  |
-| <img src="ingress.png" width="50" height="50">          | **Ingress - The Stage Designers**<br/>Craft access points and routing rules, an integral part of Helm charts. |
-
+| ![Terragrunt](https://example.com/terragrunt.png)       | **Terragrunt - The Architect of Infrastructure**<br/>Designs and provisions AWS resources, ensuring infrastructure aligns seamlessly with code.        |
+| ![GitHub Actions](https://example.com/github-actions.png) | **GitHub Actions - The Composer of Containers**<br/>Creates Docker images with finesse, transforming code changes into beautifully orchestrated containers.   |
+| ![ECR](https://example.com/ecr.png)               | **Amazon Elastic Container Registry (ECR) - The Gallery of Images**<br/>Safely stores Docker images, ready to dazzle on the Kubernetes stage. |
+| ![Argo CD](https://example.com/argo-cd.png)          | **Argo CD - The Conductor of Deployments**<br/>Monitors ECR for new images and skillfully orchestrates their deployment to the Kubernetes cluster using Helm charts. |
+| ![Helm](https://example.com/helm.png)             | **Helm Charts - The Scriptwriters of Deployments**<br/>Compose intricate deployment blueprints, dictating every aspect of configuration.  |
+| ![Ingress](https://example.com/ingress.png)          | **Ingress - The Set Designers of Access**<br/>Craft access points and routing rules, an integral part of Helm charts. |
+| ![New Stack](https://example.com/new-stack.png)        | **New Stack - The Innovator**<br/>Introducing our latest addition, the "New Stack," further enhancing our automation prowess. |
 
 ### 📜 How to Configure
 
-To understand how each component works and configure them to suit your needs, explore the dedicated files within their respective folders. Detailed documentation for each component is available there.
+To unravel the inner workings of each component and configure them to your precise needs, delve into the dedicated files within their respective folders. Comprehensive documentation for each component is available at the following locations:
 
-**Terragrunt**: Explore the configuration files within the Terragrunt folder to learn how to design and provision your AWS resources.
+- **Terragrunt**: Explore the configuration files within the Terragrunt folder to master the art of designing and provisioning AWS resources.
 
-**GitHub Actions**: Navigate to the GitHub Actions folder for insights into configuring automated Docker image creation.
+- **GitHub Actions**: Navigate to the GitHub Actions folder for deep insights into configuring the automated creation of Docker images.
 
-**ECR**: Discover image storage and management in the ECR folder.
+- **ECR**: Discover the world of image storage and management within the ECR folder.
 
-**Argo CD**: Find out how Argo CD monitors ECR and deploys using Helm charts in the Argo CD folder.
+- **Argo CD**: Learn how Argo CD, our conductor of deployments, monitors ECR and orchestrates deployments using Helm charts in the Argo CD folder.
 
-**Helm Charts**: Dive into the Helm Charts folder to understand how to craft deployment blueprints.
+- **Helm Charts**: Dive into the Helm Charts folder to comprehend the craft of composing deployment blueprints.
 
-**Ingress**: Explore the Ingress folder for details on setting access points and routing rules.
+- **Ingress**: Unlock the secrets of access points and routing rules in the Ingress folder.
 
-### 🚀 The Result? A Symphony of Automation
+- **New Stack**: For an exploration of our latest addition, the "New Stack," and insights into its configuration and utilization, venture into the New Stack folder.
 
-This synchronized orchestration guarantees that your infrastructure and applications stay in perfect harmony with your code. Updates and deployments unfold seamlessly, promising a dependable and awe-inspiring experience for your users.
+### 🚀 The Result? A Spectacle of Automation
 
-For in-depth exploration, component-specific details, and advanced techniques, please consult our comprehensive [Documentation](link-to-documentation).
+This harmonious orchestration ensures that your infrastructure and applications remain in perfect rhythm with your code. Updates and deployments unfold seamlessly, delivering a reliable and awe-inspiring experience to your users.
 
-Now, prepare to be captivated by the symphony of automation and precision! 🎶🌟🚀
+For an immersive journey into the intricate details, component-specific insights, and advanced techniques, please refer to our comprehensive [Documentation](link-to-documentation).
+
+Prepare to be captivated by the symphony of automation and precision! 🎶🌟🚀
