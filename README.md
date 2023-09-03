@@ -10,7 +10,8 @@ Let's dive into the heart of our system by introducing the critical components r
 |--------------------------|--------------------------------------------------------|--------------------------------------------------------------|
 | ![Terragrunt](https://example.com/terragrunt.png) | **Terragrunt** |Designs and provisions AWS resources, ensuring infrastructure aligns seamlessly with code.        |
 | ![GitHub Actions](https://example.com/github-actions.png) | **GitHub Actions** | Responsible for building Docker images automatically whenever code changes are pushed. |
-| ![ECR](https://example.com/ecr.png) | **Amazon Elastic Container Registry (ECR)** |  Stores Docker images securely, making them available for deployment. |
+| ![EKS](https://example.com/helm.png) | **Amazon Elastic Kubernetes Service (EKS)** | Compose application blueprints, dictating every aspect of deployment configuration. |
+| ![ECR](https://example.com/ecr.png) | **Amazon Elastic Container Registry (ECR)** |  Amazon EKS is our Kubernetes cluster manager. It efficiently manages and scales Kubernetes clusters, ensuring a robust and highly available environment for deploying containerized applications. |
 | ![Argo CD](https://example.com/argo-cd.png) | **Argo CD** | Monitors ECR for new images and directs their deployment to the Kubernetes cluster using Helm charts. |
 | ![Helm](https://example.com/helm.png) | **Helm Charts** | Compose application blueprints, dictating every aspect of deployment configuration. |
 | ![Ingress](https://example.com/ingress.png) | **Ingress** | Define access points and routing rules, a pivotal part of Helm charts. |
