@@ -4,7 +4,6 @@ Welcome to the core of our GitOps project, where automation takes center stage. 
 
 ### 🧰 Key Components
 
-Let's dive into the heart of our system by introducing the critical components responsible for the orchestration of this automation symphony:
 
 | Component                | Role                                                   | Description                                                  |
 |--------------------------|--------------------------------------------------------|--------------------------------------------------------------|
