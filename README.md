@@ -7,12 +7,12 @@ Welcome to the core of our GitOps project, where automation takes center stage. 
 
 | Component                | Role                                                   | Description                                                  |
 |--------------------------|--------------------------------------------------------|--------------------------------------------------------------|
-| <img src="terragrunt.png" width="50" height="30">| **Terragrunt** |Designs and provisions AWS resources, ensuring infrastructure aligns seamlessly with code.        |
-| <img src="github-actions.png" width="50" height="30"> | **GitHub Actions** | Responsible for building Docker images automatically whenever code changes are pushed. |
-|<img src="eks.png" width="30" height="50">| **Amazon Elastic Kubernetes Service (EKS)** | Compose application blueprints, dictating every aspect of deployment configuration. |
-|<img src="ecr.png" width="30" height="50">| **Amazon Elastic Container Registry (ECR)** |  Amazon EKS is our Kubernetes cluster manager. It efficiently manages and scales Kubernetes clusters, ensuring a robust and highly available environment for deploying containerized applications. |
-| <img src="argo.png" width="30" height="50"> | **Argo CD** | Monitors ECR for new images and directs their deployment to the Kubernetes cluster using Helm charts. |
-| <img src="helm.png" width="30" height="50"> | **Helm Charts** | Compose application blueprints, dictating every aspect of deployment configuration. |
+| <img src="terragrunt.png" width="50" height="50">| **Terragrunt** |Designs and provisions AWS resources, ensuring infrastructure aligns seamlessly with code.        |
+| <img src="github-actions.png" width="50" height="50"> | **GitHub Actions** | Responsible for building Docker images automatically whenever code changes are pushed. |
+|<img src="eks.png" width="50" height="50">| **Amazon Elastic Kubernetes Service (EKS)** | Compose application blueprints, dictating every aspect of deployment configuration. |
+|<img src="ecr.png" width="50" height="50">| **Amazon Elastic Container Registry (ECR)** |  Amazon EKS is our Kubernetes cluster manager. It efficiently manages and scales Kubernetes clusters, ensuring a robust and highly available environment for deploying containerized applications. |
+| <img src="argo.png" width="50" height="50"> | **Argo CD** | Monitors ECR for new images and directs their deployment to the Kubernetes cluster using Helm charts. |
+| <img src="helm.png" width="50" height="50"> | **Helm Charts** | Compose application blueprints, dictating every aspect of deployment configuration. |
 
 ### 📜 Configuration Details
 
