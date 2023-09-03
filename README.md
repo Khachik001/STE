@@ -14,7 +14,6 @@ Let's dive into the heart of our system by introducing the critical components r
 | ![ECR](https://example.com/ecr.png) | **Amazon Elastic Container Registry (ECR)** |  Amazon EKS is our Kubernetes cluster manager. It efficiently manages and scales Kubernetes clusters, ensuring a robust and highly available environment for deploying containerized applications. |
 | ![Argo CD](https://example.com/argo-cd.png) | **Argo CD** | Monitors ECR for new images and directs their deployment to the Kubernetes cluster using Helm charts. |
 | ![Helm](https://example.com/helm.png) | **Helm Charts** | Compose application blueprints, dictating every aspect of deployment configuration. |
-| ![Ingress](https://example.com/ingress.png) | **Ingress** | Define access points and routing rules, a pivotal part of Helm charts. |
 
 ### 📜 Configuration Details
 
