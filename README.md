@@ -5,7 +5,7 @@ Welcome to the core of our GitOps project, where automation takes center stage. 
 ### 🧰 Key Components
 
 
-| Component             | Role                                                   | Description                                                  |
+| Component     | Role                                                   | Description                                                  |
 |---------------|--------------------------------------------------------|--------------------------------------------------------------|
 | <img src="terragrunt.png" width="50" height="50">| **Terragrunt** |Designs and provisions AWS resources, ensuring infrastructure aligns seamlessly with code.        |
 | <img src="github-actions.png" width="50" height="50"> | **GitHub Actions** | Responsible for building Docker images automatically whenever code changes are pushed. |
