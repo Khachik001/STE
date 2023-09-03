@@ -14,7 +14,6 @@ Let's dive into the heart of our system by introducing the critical components r
 | ![Argo CD](https://example.com/argo-cd.png) | **Argo CD** | Argo CD serves as the Conductor of Deployments. It monitors ECR for new images and orchestrates their deployment to the Kubernetes cluster using Helm charts. |
 | ![Helm](https://example.com/helm.png) | **Helm Charts** | Helm Charts act as the Scriptwriters of Deployments. They compose intricate deployment blueprints, dictating every aspect of configuration. |
 | ![Ingress](https://example.com/ingress.png) | **Ingress** | Ingress plays the role of Set Designers of Access. It crafts access points and routing rules, which are an integral part of Helm charts. |
-| ![New Stack](https://example.com/new-stack.png) | **New Stack** | Introducing our latest addition, the "New Stack," which further enhances our automation prowess. Detailed documentation for this component can be found in the New Stack folder. |
 
 ### 📜 Configuration Details
 
@@ -23,12 +22,7 @@ To gain an in-depth understanding of how each component operates and how to conf
 | Component                | Configuration Documentation Folder |
 |--------------------------|-----------------------------------|
 | **Terragrunt** | Terragrunt folder |
-| **GitHub Actions** | GitHub Actions folder |
-| **ECR** | ECR folder |
-| **Argo CD** | Argo CD folder |
 | **Helm Charts** | Helm Charts folder |
-| **Ingress** | Ingress folder |
-| **New Stack** | New Stack folder |
 
 ### 🚀 The Result? A Symphony of Automation
 
