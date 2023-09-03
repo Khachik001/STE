@@ -21,8 +21,10 @@ To gain an in-depth understanding of how each component operates and how to conf
 
 | Component                | Configuration Documentation Folder |
 |--------------------------|-----------------------------------|
-| **Terragrunt** | Terragrunt folder |
-| **Helm Charts** | Helm Charts folder |
+| **Terragrunt** | [Terragrunt folder](link-to-terragrunt) |
+| **ECR** | [ECR folder](link-to-ecr) |
+| **Argo CD** | [Argo CD folder](link-to-argo-cd) |
+| **Helm Charts** | [Helm Charts folder](link-to-helm-charts) |
 
 ### 🚀 The Result? A Symphony of Automation
 
