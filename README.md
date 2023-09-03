@@ -1,27 +1,24 @@
-## 🚀 Automated GitOps Magic
+## 🚀 Automated GitOps Workflow in Action
 
-Welcome to the heart of our GitOps project! It's where the magic happens. Our automated workflow takes the hassle out of managing infrastructure and deploying applications, letting you focus on what matters most—building amazing software.
+Welcome to the behind-the-scenes of our GitOps project, where automation unfolds like a well-scripted performance.
 
-### The Symphony of Automation
+### The Players
 
-Imagine a symphony where every instrument plays its part harmoniously:
+Meet the key players and their roles in this orchestrated symphony of technology:
 
-1. **Terragrunt, the Orchestra Conductor:** Our infrastructure takes center stage, choreographed by Terragrunt. It listens for your commands and orchestrates AWS resources with precision. Whenever you make a change in the infrastructure code, Terragrunt waves its conductor's baton, and the AWS infrastructure dances to your tune.
+| Technology             | Role                              |
+|------------------------|-----------------------------------|
+| ![Terragrunt Logo](images/terragrunt.png)       | **Terragrunt, the Architect**<br/>Designs and provisions AWS resources, orchestrating changes from your infrastructure code.        |
+| ![GitHub Actions Logo](images/github-actions.png) | **GitHub Actions, the Composer**<br/>Creates Docker images, turning your code into harmonious containers with each push.   |
+| ![ECR Logo](images/ecr.png)               | **Amazon Elastic Container Registry (ECR), the Art Gallery**<br/>Preserves Docker images as works of art, ready for deployment in your Kubernetes cluster. |
+| ![Argo CD Logo](images/argo-cd.png)          | **Argo CD, the Conductor of Deployments**<br/>Monitors your Git repository and ensures the Kubernetes cluster dances in harmony with your code. |
+| ![Helm Logo](images/helm.png)             | **Helm Charts, the Scriptwriters**<br/>Crafts the blueprint for your application's performance, dictating every aspect of its setup.  |
+| ![Ingress Logo](images/ingress.png)          | **Ingress, the Set Designers**<br/>Designs the perfect stage for your application's grand entrance as part of the Helm charts. |
 
-2. **Docker's Artistry:** When your application code evolves, our Docker maestro steps in. GitHub Actions conducts a flawless performance, orchestrating a new Docker image. It's like crafting a new masterpiece for your app with every code update.
+### The Result? A Choreographed Spectacle
 
-3. **ECR, the Art Gallery:** Once the Docker image is ready, it's showcased in Amazon Elastic Container Registry (ECR), your art gallery in the cloud. The image is carefully preserved, ready to be admired by your cluster.
+This harmonious orchestration guarantees that your infrastructure and application are always in sync with your code. Updates and deployments unfold seamlessly, delivering a spectacle that leaves your audience, your users, in awe.
 
-4. **Argo CD's Ballet:** Argo CD takes the stage as the lead dancer, constantly watching the Git repository for changes. When the music changes, it gracefully adapts the Kubernetes cluster's performance to match. It's like a ballet of containers.
+For an in-depth exploration of how to fine-tune this technological symphony or compose your own masterpiece, consult our [Documentation](link-to-documentation). It's your backstage pass to the conductor's notes and more.
 
-5. **Helm Chart, the Script:** Helm charts provide the script for your application's performance. They define how your application should be set up. Argo CD uses this script to direct the cluster's actors to their positions.
-
-6. **Ingress, the Stage Design:** Your application needs a stage to shine. Helm charts also include Ingress definitions, the stage design. Argo CD deploys these designs, setting up the perfect setting for your app's grand performance.
-
-### The Result? Effortless Excellence
-
-This symphony of automation ensures that your infrastructure is always in harmony with your code. Updates and deployments become a seamless, graceful dance, making sure your audience (your users) always sees your application at its best.
-
-For an in-depth look at how to fine-tune this orchestra or even conduct your own, check out our [Documentation](link-to-documentation). It's where you'll find the conductor's notes and more.
-
-Now, sit back, relax, and enjoy the show! 🎶🎭🌟
+Now, prepare to be immersed in a world where automation meets artistry, and every deployment is a choreographed spectacle! 🌟🎭🎵
