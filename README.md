@@ -8,13 +8,12 @@ Allow us to introduce the ensemble cast, each performing a crucial role in our a
 
 | Technology             | Role                                                            |
 |------------------------|-----------------------------------------------------------------|
-| ![Terragrunt Logo](images/terragrunt.png)       | **Terragrunt - The Infrastructure Maestro**<br/>Designs and provisions AWS resources, ensuring infrastructure aligns with code.        |
+| ![Terragrunt Logo](terragrunt.png)       | **Terragrunt - The Infrastructure Maestro**<br/>Designs and provisions AWS resources, ensuring infrastructure aligns with code.        |
 | ![GitHub Actions Logo](images/github-actions.png) | **GitHub Actions - The Composer of Containers**<br/>Creates Docker images with precision, translating code changes into containerized art.   |
 | ![ECR Logo](images/ecr.png)               | **Amazon Elastic Container Registry (ECR) - The Gallery of Images**<br/>Safely stores Docker images, ready to shine on the Kubernetes stage. |
 | ![Argo CD Logo](images/argo-cd.png)          | **Argo CD - The Deployment Conductor**<br/>Monitors ECR for new images and orchestrates their deployment to the Kubernetes cluster using Helm charts. |
 | ![Helm Logo](images/helm.png)             | **Helm Charts - The Scriptwriters**<br/>Compose intricate deployment blueprints, dictating every aspect of configuration.  |
 | ![Ingress Logo](images/ingress.png)          | **Ingress - The Stage Designers**<br/>Craft access points and routing rules, an integral part of Helm charts. |
-| ![New Stack Logo](images/new-stack.png)      | **New Stack - The Innovator**<br/>Introducing our latest addition, the "New Stack," which further enhances our automation prowess. |
 
 ### 📜 How to Configure
 
@@ -32,7 +31,6 @@ To understand how each component works and configure them to suit your needs, ex
 
 **Ingress**: Explore the Ingress folder for details on setting access points and routing rules.
 
-**New Stack**: For information on configuring and utilizing our latest addition, the "New Stack," check the New Stack folder.
 
 ### 🚀 The Result? A Symphony of Automation
 
