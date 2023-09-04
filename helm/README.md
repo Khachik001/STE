@@ -11,9 +11,54 @@ Before installing this Helm chart, ensure that you have the following prerequisi
 - Kubernetes cluster is set up and running.
 - Helm is installed on your local machine.
 
-## Installation
+# Configuration Options
 
-To install the Helm chart, you can use the following Helm command:
+This section provides detailed information about the configuration options available for the Helm chart. You can customize these options in the `values.yaml` file when installing the chart.
 
-```shell
-helm install my-release your-chart-name -f values.yaml
+| Parameter               | Description                                      | Default Value   |
+| ----------------------- | ------------------------------------------------ | --------------- |
+| `replicaCount`          | Number of desired replicas                      | `1`             |
+| `containers.image`      | Container image repository                       | `nginx`         |
+| `containers.tag`        | Container image tag                             | `latest`        |
+| `ports.container_port`  | Container port exposed in the container         | `80`            |
+| `ports.lb_port`         | Load balancer port for the Service               | `80`            |
+| `host`                  | Desired hostname for the Nginx Ingress rule     | `example.com`   |
+
+## Parameter Descriptions
+
+Here are detailed descriptions of each configuration option:
+
+### `replicaCount`
+
+- **Description:** The number of desired replicas for the Kubernetes Deployment.
+
+### `containers.image`
+
+- **Description:** The container image repository for the application to be deployed.
+
+### `containers.tag`
+
+- **Description:** The container image tag, specifying the version of the image to be deployed.
+
+### `ports.container_port`
+
+- **Description:** The port exposed within the container for the application.
+
+### `ports.lb_port`
+
+- **Description:** The port used by the Service's load balancer to forward traffic to the containers.
+
+### `host`
+
+- **Description:** The desired hostname for the Nginx Ingress rule. This should be set to the domain or subdomain you want to associate with your application.
+
+## Customizing Configuration
+
+To customize the configuration options for this Helm chart, create a `values.yaml` file and override the default values according to your requirements. For example, to change the number of replicas and the container image, your `values.yaml` might look like this:
+
+```yaml
+replicaCount: 3
+containers:
+  image: my-custom-image-repo/my-app
+  tag: v1.2.3
+
