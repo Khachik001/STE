@@ -23,7 +23,7 @@ To gain an in-depth understanding of how each component operates and how to conf
 | **Terragrunt** | [Terragrunt folder](link-to-terragrunt) |
 | **ECR** | [ECR folder](link-to-ecr) |
 | **Argo CD** | [Argo CD folder](link-to-argo-cd) |
-| **Helm Charts** | [Helm Charts folder](link-to-helm-charts) |
+| **Helm Charts** | [Helm Charts folder](./helm) |
 
 
 ### 🚀 The Result?
