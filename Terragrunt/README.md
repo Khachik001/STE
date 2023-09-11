@@ -1,6 +1,6 @@
 # Terraform/Terragrunt Infrastructure Deployment Project
 
-Welcome to our Terraform and Terragrunt project for deploying a comprehensive AWS infrastructure stack and Kubernetes cluster for your applications. This project automates the setup of essential components, including a Virtual Private Cloud (VPC), Amazon Elastic Container Registry (ECR), Amazon Elastic Kubernetes Service (EKS) cluster, Ingress controller, Argo CD, and an application with an image updater.
+Welcome to our Terraform and Terragrunt project for deploying a comprehensive AWS infrastructure stack and Kubernetes cluster for your applications. This project automates the setup of essential components, including a Virtual Private Cloud (VPC), Amazon Elastic Container Registry (ECR), Amazon Elastic Kubernetes Service (EKS), Ingress controller, Argo CD, and an application with an image updater.
 
 ## Project Overview
 
