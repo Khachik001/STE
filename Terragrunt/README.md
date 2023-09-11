@@ -49,7 +49,7 @@ To clone this Git repository, run the following command:
 
 ```bash
 git clone https://github.com/intern0001/intern.git
-
+```
 
 
 
