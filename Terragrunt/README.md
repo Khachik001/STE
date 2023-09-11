@@ -40,18 +40,11 @@ Once you have these prerequisites in place, you'll be ready to set up your envir
 
 ## Configuration Steps
 
-Follow these steps to set the AWS region for your project:
+### AWS CLI Configuration
 
-1. **Navigate to the `environments/dev` Directory:** Open your terminal or command prompt and navigate to the `environments/dev` directory using the following command:
+Configure the AWS CLI by running `aws configure` in your terminal and providing your AWS Access Key ID, Secret Access Key, default region, and output format. These credentials are essential for interacting with your AWS account and are securely stored on your system, enabling you to deploy resources using Terraform and Terragrunt.
 
-   ```sh
-   cd environments/dev
-   
-2. Edit the `region.hcl` File
-3. Define the AWS Region, like this
-   ```
-   locals {
-    aws_region = "us-east-1" # Replace with your desired AWS region code
-       }
-   ```
+
+
+
 
