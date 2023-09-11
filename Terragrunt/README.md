@@ -65,11 +65,13 @@ In this step, you will configure environment-specific variables for the `dev` en
 
 3. Open the `env.hcl` file using a text editor.
 
-4. In the `env.hcl` file, define your environment-specific variables. 
-   
-   
+4. In the `env.hcl` file, define your environment-specific variables.
+    
+## Understanding Modules, Inputs, and Default Values
 
+### Modules
 
+#### VPC
 
 
 
