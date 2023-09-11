@@ -47,4 +47,10 @@ Follow these steps to set the AWS region for your project:
    ```sh
    cd environments/dev
 2. Edit the `region.hcl` File
-3. Define the AWS Region:
+3. Define the AWS Region, like this
+   ```
+   locals {
+    aws_region = "us-east-1" # Replace with your desired AWS region code
+  }
+  ```
+
