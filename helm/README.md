@@ -1,4 +1,4 @@
-# Test
+# Helm Chart
 
 ## Introduction
 
