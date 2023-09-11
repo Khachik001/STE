@@ -22,3 +22,20 @@ Before you begin, please review the prerequisites and ensure you have the necess
 
 Let's get started!
 
+## Prerequisites
+
+Before you can deploy your infrastructure and applications using Terraform and Terragrunt, please ensure that you have the following prerequisites in place:
+
+1. **AWS Account**: You must have access to an AWS (Amazon Web Services) account with the necessary permissions to create and manage resources such as VPCs, ECR, EKS clusters, and IAM roles. If you don't have an AWS account, you can sign up for one [here](https://aws.amazon.com/).
+
+2. **Terraform Installation**: Terraform is used for defining and provisioning infrastructure as code. You should have Terraform installed on your local machine. You can download Terraform from the official website [here](https://www.terraform.io/downloads.html) and follow the installation instructions for your platform.
+
+3. **Terragrunt Installation**: Terragrunt is a wrapper for Terraform that provides extra features like remote state management and configuration. You'll need Terragrunt installed as well. You can download Terragrunt from the official GitHub repository [here](https://github.com/gruntwork-io/terragrunt#install-terragrunt) and follow the installation instructions.
+
+4. **AWS CLI (Command Line Interface)**: The AWS CLI is essential for configuring AWS credentials and interacting with your AWS account from the command line. If you haven't installed the AWS CLI, you can find installation instructions for various platforms [here](https://aws.amazon.com/cli/).
+
+5. **Git**: You'll need Git to clone this repository and manage your project code. If Git is not already installed on your system, you can download it from the official website [here](https://git-scm.com/downloads) and follow the installation instructions.
+
+Once you have these prerequisites in place, you'll be ready to set up your environment and deploy your infrastructure and applications following the instructions provided in this README.
+
+
