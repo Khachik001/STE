@@ -51,6 +51,6 @@ Follow these steps to set the AWS region for your project:
    ```
    locals {
     aws_region = "us-east-1" # Replace with your desired AWS region code
-  }
+       }
   ```
 
