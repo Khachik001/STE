@@ -38,4 +38,13 @@ Before you can deploy your infrastructure and applications using Terraform and T
 
 Once you have these prerequisites in place, you'll be ready to set up your environment and deploy your infrastructure and applications following the instructions provided in this README.
 
+## Configuration Steps
 
+Follow these steps to set the AWS region for your project:
+
+1. **Navigate to the `environments/dev` Directory:** Open your terminal or command prompt and navigate to the `environments/dev` directory using the following command:
+
+   ```sh
+   cd environments/dev
+2. Edit the `region.hcl` File
+3. Define the AWS Region:
