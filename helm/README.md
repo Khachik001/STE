@@ -17,12 +17,12 @@ This section provides detailed information about the configuration options avail
 
 | Parameter               | Description                                      | Default Value   |
 | ----------------------- | ------------------------------------------------ | --------------- |
-| `replicaCount`          | Number of desired replicas                      | `1`             |
-| `containers.image`      | Container image repository                       | `nginx`         |
-| `containers.tag`        | Container image tag                             | `latest`        |
-| `ports.container_port`  | Container port exposed in the container         | `80`            |
+| `replicaCount`          | Number of desired replicas                      | `3`             |
+| `containers.image`      | Container image repository                       | `548844171305.dkr.ecr.us-east-1.amazonaws.com/private-example`         |
+| `containers.tag`        | Container image tag                             | `v0.4.0`        |
+| `ports.container_port`  | Container port exposed in the container         | `3000`            |
 | `ports.lb_port`         | Load balancer port for the Service               | `80`            |
-| `host`                  | Desired hostname for the Nginx Ingress rule     | `example.com`   |
+| `host`                  | Desired hostname for the Nginx Ingress rule     | `kub.am`   |
 
 ## Parameter Descriptions
 
