@@ -50,6 +50,25 @@ To clone this Git repository, run the following command:
 ```bash
 git clone https://github.com/intern0001/intern.git
 ```
+## Step 3: Define AWS Region
+
+In this step, you'll specify the AWS region you intend to use for your project. We'll configure this in the Terragrunt configuration for the `dev` environment.
+
+1. Navigate to the `project/environments/dev/` directory in your project.
+
+2. Locate the `region.hcl` file.
+
+3. Open the `region.hcl` file using a text editor.
+
+4. In the `region.hcl` file, you'll see the following content:
+
+   ```hcl
+   locals {
+     aws_region = "us-east-1" # Replace with your desired AWS region
+   }
+   ```
+   
+
 
 
 
