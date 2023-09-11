@@ -56,11 +56,9 @@ In this step, you'll specify the AWS region you intend to use for your project. 
 
 1. Navigate to the `project/environments/dev/` directory in your project.
 
-2. Locate the `region.hcl` file.
+2. Open the `region.hcl` file using a text editor.
 
-3. Open the `region.hcl` file using a text editor.
-
-4. In the `region.hcl` file, you'll see the following content:
+3. In the `region.hcl` file, you'll see the following content:
 
    ```hcl
    locals {
