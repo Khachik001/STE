@@ -55,6 +55,18 @@ In this step, you'll specify the AWS region you intend to use for your project. 
      aws_region = "us-east-1" # Replace with your desired AWS region
    }
    ```
+### Step 4: Configure Environment Variables for `us-east-1` (Dev Environment)
+
+In this step, you will configure environment-specific variables for the `dev` environment in the `us-east-1` region using the `env.hcl` file.
+
+1. Navigate to the `project/environments/dev/us-east-1/` directory in your project.
+
+2. Locate the `env.hcl` file.
+
+3. Open the `env.hcl` file using a text editor.
+
+4. In the `env.hcl` file, define your environment-specific variables. 
+   
    
 
 
