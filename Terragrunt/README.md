@@ -40,9 +40,16 @@ Once you have these prerequisites in place, you'll be ready to set up your envir
 
 ## Configuration Steps
 
-### AWS CLI Configuration
+### Step 1: AWS CLI Configuration
 
 Configure the AWS CLI by running `aws configure` in your terminal and providing your AWS Access Key ID, Secret Access Key, default region, and output format. These credentials are essential for interacting with your AWS account and are securely stored on your system, enabling you to deploy resources using Terraform and Terragrunt.
+
+### Step 2: Clone the Git Repository
+To clone this Git repository, run the following command:
+
+```bash
+git clone https://github.com/intern0001/intern.git
+
 
 
 
