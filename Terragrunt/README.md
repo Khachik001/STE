@@ -181,4 +181,35 @@ The following table lists the input variables that you can customize when using 
 |------------------|--------|---------------------------|-----------------------------------------------------------------------------------------------|
 | `cluster_name`   | String |         - (Required)        |The name of the EKS Cluster where the Ingress Controller should be deployed.    |
 
+<br><br><br>
+## Argo CD Module
+
+The Argo CD module in this project simplifies the setup of Argo CD, a GitOps continuous delivery tool, within your Amazon EKS (Elastic Kubernetes Service) cluster. This documentation outlines the key details, input variables, and dependencies for the Argo CD module.
+
+### Module Details
+
+| Detail           | Description                                       |
+|------------------|---------------------------------------------------|
+| **Module Name**  | `argocd`                                         |
+| **Source**       | `./modules/argocd`                              |
+| **Purpose**      | Sets up Argo CD within an EKS cluster to manage deployments using GitOps. |
+| **Dependencies** | Depends on an existing EKS cluster as defined in the EKS module and an Ingress Controller as defined in the Ingress module. |
+| **Compatibility**| Terraform 0.12 and later.                        |
+
+### Input Variables
+
+The following table lists the input variables that you can customize when using the Argo CD module. These variables allow you to configure Argo CD to work with your EKS cluster and deployment workflow:
+
+| Variable Name    | Type   | Default Value   | Description                                                                                   |
+|------------------|--------|------------------|-----------------------------------------------------------------------------------------------|
+| `argo_version`   | String | "v2.8.0"        | The version of Argo CD to be installed.                                                      |
+| `updater_version`| String | "v0.12.2"       | The version of the Argo CD Image Updater to be installed.                                     |
+| `cluster_name`   | String | - (Required)    | The name of the EKS Cluster where Argo CD should be deployed.                                 |
+| `host`           | String | "argocd.example.com" | The host/domain for Argo CD.                                                           |
+| `account_id`     | String | - (Required)    | Your AWS account ID.                                                                         |
+| `aws_region`     | String | - (Required)    | The AWS region where your resources are deployed.                                            |
+| `argo_repo`      | String | - (Required)    | The Argo CD Git repository that will be used to deploy applications.                           |
+| `github_token`   | String | -              | A GitHub personal access token with sufficient permissions to access the repository.          |
+| `github_name`    | String | -              | The GitHub username or organization name that owns the repository.                             |
+
 
