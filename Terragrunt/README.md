@@ -75,7 +75,7 @@ In this step, you will configure environment-specific variables for the `dev` en
 
 The VPC (Virtual Private Cloud) module in this project provides a flexible and customizable way to define the network infrastructure for your AWS resources. This documentation outlines the key details and input variables for the VPC module.
 
-### Module Details
+##### Module Details
 
 Here are some essential details about the VPC module:
 
@@ -86,7 +86,7 @@ Here are some essential details about the VPC module:
 | **Purpose**      | Creates a Virtual Private Cloud (VPC) on AWS.    |
 | **Dependencies** | None (standalone module).                        |
 
-### Input Variables
+###### Input Variables
 
 The following table lists the input variables that you can customize when using the VPC module. These variables allow you to tailor the VPC configuration to your specific requirements:
 
