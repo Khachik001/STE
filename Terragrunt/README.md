@@ -67,15 +67,13 @@ In this step, you will configure environment-specific variables for the `dev` en
 
 4. In the `env.hcl` file, define your environment-specific variables.
     
-## Understanding Modules, Inputs, and Default Values
+# Understanding Modules, Inputs, and Default Values
 
-### Modules
-
-#### VPC
+## VPC
 
 The VPC (Virtual Private Cloud) module in this project provides a flexible and customizable way to define the network infrastructure for your AWS resources. This documentation outlines the key details and input variables for the VPC module.
 
-##### Module Details
+### Module Details
 
 Here are some essential details about the VPC module:
 
@@ -86,7 +84,7 @@ Here are some essential details about the VPC module:
 | **Purpose**      | Creates a Virtual Private Cloud (VPC) on AWS.    |
 | **Dependencies** | None (standalone module).                        |
 
-###### Input Variables
+### Input Variables
 
 The following table lists the input variables that you can customize when using the VPC module. These variables allow you to tailor the VPC configuration to your specific requirements:
 
@@ -99,6 +97,15 @@ The following table lists the input variables that you can customize when using 
 | `enable_nat_gateway`   | Bool     | true               | Enable or disable the creation of NAT gateways for private subnets.                            |
 | `single_nat_gateway`   | Bool     | true               | Use a single NAT gateway for all private subnets (when `enable_nat_gateway` is `true`).         |
 | `one_nat_gateway_per_az`| Bool    | false              | Create one NAT gateway per availability zone (AZ) for private subnets (when `enable_nat_gateway` is `true`). |
+
+### Outputs
+
+The VPC module provides the following outputs:
+
+| Output Name        | Description                                       |
+|--------------------|---------------------------------------------------|
+| `vpc_id`           | The ID of the created VPC.                       |
+| `private_subnets`  | A list of private subnet IDs within the VPC.     |
 
 
 
