@@ -84,8 +84,8 @@ The following table lists the input variables that you can customize when using 
 
 | Variable Name          | Type     | Default Value       | Description                                                                                      |
 |------------------------|----------|----------------------|--------------------------------------------------------------------------------------------------|
-| `vpc_cidr`             | String   | "10.10.0.0/16"      | The IP address range for the VPC, specified in CIDR notation with a `/16` prefix. Please ensure that you define the value with the `/16` prefix. The VPC will automatically create 2 public and 2 private subnets, each with a `/24` CIDR range. Customize to your desired `/16` CIDR range.  |
-| `vpc_name`             | String   | "intern_vpc"        | The name of the VPC. Provide a meaningful name for easy identification within your environment. |
+| `vpc_cidr`             | String   | "10.10.0.0/16" (Required)      | The IP address range for the VPC, specified in CIDR notation with a `/16` prefix. Please ensure that you define the value with the `/16` prefix. The VPC will automatically create 2 public and 2 private subnets, each with a `/24` CIDR range. Customize to your desired `/16` CIDR range.  |
+| `vpc_name`             | String   | "intern_vpc" (Required)        | The name of the VPC. Provide a meaningful name for easy identification within your environment. |
 | `enable_dns_support`   | Bool     | true               | Enable or disable DNS resolution support within the VPC.                                      |
 | `enable_dns_hostnames` | Bool     | true               | Enable or disable DNS hostnames within the VPC.                                               |
 | `enable_nat_gateway`   | Bool     | true               | Enable or disable the creation of NAT gateways for private subnets.                            |
@@ -124,12 +124,42 @@ Here are some essential details about the ECR module:
 
 | Variable Name    | Type   | Default Value | Description                                                                                   |
 |------------------|--------|----------------|-----------------------------------------------------------------------------------------------|
-| `ecr_repo_name`  | String | "test_ecr"     | The name of the ECR repository. Customize this value to specify a unique name for your repository. |
+| `ecr_repo_name`  | String | "test_ecr" (Required)     | The name of the ECR repository. Customize this value to specify a unique name for your repository. |
 
 
+## EKS Module Documentation
 
+The EKS (Amazon Elastic Kubernetes Service) module in this project allows you to create and manage Kubernetes clusters on AWS. This documentation outlines the key details, input variables, and dependencies for the EKS module.
 
+### Module Details
 
+Here are some essential details about the EKS module:
 
+| Detail           | Description                                       |
+|------------------|---------------------------------------------------|
+| **Module Name**  | `eks`                                             |
+| **Source**       | `./modules/eks`                                  |
+| **Purpose**      | Creates an Amazon EKS cluster on AWS.            |
+| **Dependencies** | Requires a VPC configuration as defined in the VPC module. |
 
+### Input Variables
 
+The following table lists the input variables that you can customize when using the EKS module. These variables allow you to configure the EKS cluster to suit your project's requirements:
+
+| Variable Name    | Type             | Default Value | Description                                                                                   |
+|------------------|------------------|----------------|-----------------------------------------------------------------------------------------------|
+| `vpc_id`         | String           | - (Required)   | The ID of the VPC where the EKS cluster should be created.                                 |
+| `private_subnets`| List of Strings  | - (Required)   | A list of private subnet IDs where the EKS worker nodes should be launched.                |
+| `min_size`       | Number           | 2              | Minimum size of the worker node group.                                                        |
+| `max_size`       | Number           | 3              | Maximum size of the worker node group.                                                        |
+| `desired_size`   | Number           | 2              | Desired size of the worker node group.                                                        |
+| `cluster_name`   | String           | "intern_eks"   | Name of the EKS Cluster. Must be between 1-100 characters in length and follow naming conventions. |
+| `instance_types` | List of Strings  | ["t3.small"]   | List of instance types associated with the EKS Node Group.                                   |
+
+### Output 
+
+The EKS module provides the following output:
+
+| Output Name    | Description                            |
+|----------------|----------------------------------------|
+| `cluster_name` | The name of the created EKS Cluster.  |
