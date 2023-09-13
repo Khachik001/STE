@@ -62,6 +62,7 @@ In this step, you will configure environment-specific variables for the `dev` en
 4. In the `env.hcl` file, define your environment-specific variables.
     
 # Understanding Modules, Inputs, and Default Values
+<br> <br>
 
 ## VPC Module 
 
@@ -100,8 +101,7 @@ The VPC module provides the following outputs:
 | `private_subnets`  | A list of private subnet IDs within the VPC.     |
 
 
-
-
+<br> <br> <br> <br>
 
 ## ECR Module 
 
@@ -122,7 +122,7 @@ The ECR (Elastic Container Registry) module in this project allows you to create
 |------------------|--------|----------------|-----------------------------------------------------------------------------------------------|
 | `ecr_repo_name`  | String | "test_ecr" | The name of the ECR repository. Customize this value to specify a unique name for your repository. |
 
-<br> <br> <br> <br> <br> 
+<br> <br> <br> <br>  
 
 ## EKS Module 
 
