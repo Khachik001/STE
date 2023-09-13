@@ -194,7 +194,7 @@ The Argo CD module in this project simplifies the setup of Argo CD, a GitOps con
 | **Source**       | `./modules/argocd`                              |
 | **Purpose**      | Sets up Argo CD within an EKS cluster to manage deployments using GitOps. |
 | **Dependencies** | Depends on an existing EKS cluster as defined in the EKS module and an Ingress Controller as defined in the Ingress module. |
-| **Compatibility**| Terraform 0.12 and later.                        |
+
 
 ### Input Variables
 
