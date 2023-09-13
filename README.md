@@ -20,7 +20,7 @@ To gain an in-depth understanding of how each component operates and how to conf
 
 | Component                | Configuration Documentation Folder |
 |--------------------------|-----------------------------------|
-| **Terragrunt** | [Terragrunt folder](link-to-terragrunt) |
+| **Terragrunt** | [Terragrunt folder](./Terragrunt) |
 | **ECR** | [ECR folder](link-to-ecr) |
 | **Argo CD** | [Argo CD folder](link-to-argo-cd) |
 | **Helm Charts** | [Helm Charts folder](./helm) |
