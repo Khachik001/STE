@@ -98,8 +98,7 @@ The following table lists the input variables that you can customize when using 
 | `enable_dns_hostnames` | Bool     | true               | Enable or disable DNS hostnames within the VPC.                                               |
 | `enable_nat_gateway`   | Bool     | true               | Enable or disable the creation of NAT gateways for private subnets.                            |
 | `single_nat_gateway`   | Bool     | true               | Use a single NAT gateway for all private subnets (when `enable_nat_gateway` is `true`).         |
-| `one_nat_gateway_per_az`| Bool    | false              | Create one NAT gateway per availability zone (AZ) for private subnets (when `enable_nat_gateway` is 
- `true`). |
+| `one_nat_gateway_per_az`| Bool    | false              | Create one NAT gateway per availability zone (AZ) for private subnets (when `enable_nat_gateway` is `true`). |
 
 
 
