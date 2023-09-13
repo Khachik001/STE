@@ -101,7 +101,7 @@ The VPC module provides the following outputs:
 | `private_subnets`  | A list of private subnet IDs within the VPC.     |
 
 
-<br> <br> <br> <br>
+<br> <br> <br>
 
 ## ECR Module 
 
@@ -122,7 +122,7 @@ The ECR (Elastic Container Registry) module in this project allows you to create
 |------------------|--------|----------------|-----------------------------------------------------------------------------------------------|
 | `ecr_repo_name`  | String | "test_ecr" | The name of the ECR repository. Customize this value to specify a unique name for your repository. |
 
-<br> <br> <br> <br>  
+<br> <br> <br>   
 
 ## EKS Module 
 
@@ -158,3 +158,27 @@ The EKS module provides the following output:
 | Output Name    | Description                            |
 |----------------|----------------------------------------|
 | `cluster_name` | The name of the created EKS Cluster.  |
+
+<br> <br> <br> 
+
+## Ingress Controller Module 
+The Ingress Controller module in this project simplifies the setup of an Ingress Controller within your Amazon EKS (Elastic Kubernetes Service) cluster. This documentation outlines the key details, input variables, and dependencies for the Ingress Controller module.
+
+### Module Details
+
+| Detail           | Description                                       |
+|------------------|---------------------------------------------------|
+| **Module Name**  | `ingress`                                         |
+| **Source**       | `./modules/ingress`                              |
+| **Purpose**      | Sets up an Ingress Controller within an EKS cluster to manage external traffic routing to services. |
+| **Dependencies** | Depends on an existing EKS cluster as defined in the EKS module. |                       |
+
+### Input Variables
+
+The following table lists the input variables that you can customize when using the Ingress Controller module. These variables allow you to configure the Ingress Controller to work with your EKS cluster:
+
+| Variable Name    | Type   |                          | Description                                                                                   |
+|------------------|--------|---------------------------|-----------------------------------------------------------------------------------------------|
+| `cluster_name`   | String |          Required         |The name of the EKS Cluster where the Ingress Controller should be deployed.    |
+
+
