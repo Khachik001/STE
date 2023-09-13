@@ -73,6 +73,35 @@ In this step, you will configure environment-specific variables for the `dev` en
 
 #### VPC
 
+The VPC (Virtual Private Cloud) module in this project provides a flexible and customizable way to define the network infrastructure for your AWS resources. This documentation outlines the key details and input variables for the VPC module.
+
+### Module Details
+
+Here are some essential details about the VPC module:
+
+| Detail           | Description                                       |
+|------------------|---------------------------------------------------|
+| **Module Name**  | `vpc`                                             |
+| **Source**       | `./modules/vpc`                                  |
+| **Purpose**      | Creates a Virtual Private Cloud (VPC) on AWS.    |
+| **Dependencies** | None (standalone module).                        |
+
+### Input Variables
+
+The following table lists the input variables that you can customize when using the VPC module. These variables allow you to tailor the VPC configuration to your specific requirements:
+
+| Variable Name          | Type     | Default Value       | Description                                                                                      |
+|------------------------|----------|----------------------|--------------------------------------------------------------------------------------------------|
+| `vpc_cidr`             | String   | "10.10.0.0/16"      | The IP address range for the VPC, specified in CIDR notation. Customize to your desired range.  |
+| `vpc_name`             | String   | "intern_vpc"        | The name of the VPC. Provide a meaningful name for easy identification within your environment. |
+| `enable_dns_support`   | Bool     | true               | Enable or disable DNS resolution support within the VPC.                                      |
+| `enable_dns_hostnames` | Bool     | true               | Enable or disable DNS hostnames within the VPC.                                               |
+| `enable_nat_gateway`   | Bool     | true               | Enable or disable the creation of NAT gateways for private subnets.                            |
+| `single_nat_gateway`   | Bool     | true               | Use a single NAT gateway for all private subnets (when `enable_nat_gateway` is `true`).         |
+| `one_nat_gateway_per_az`| Bool    | false              | Create one NAT gateway per availability zone (AZ) for private subnets (when `enable_nat_gateway` is 
+ `true`). |
+
+
 
 
 
