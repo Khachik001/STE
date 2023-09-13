@@ -62,7 +62,7 @@ In this step, you will configure environment-specific variables for the `dev` en
 4. In the `env.hcl` file, define your environment-specific variables.
     
 # Understanding Modules, Inputs, and Default Values
-<br> <br>
+<br> 
 
 ## VPC Module 
 
