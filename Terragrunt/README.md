@@ -63,7 +63,7 @@ In this step, you will configure environment-specific variables for the `dev` en
     
 # Understanding Modules, Inputs, and Default Values
 
-## VPC
+## VPC Module Documentation
 
 The VPC (Virtual Private Cloud) module in this project provides a flexible and customizable way to define the network infrastructure for your AWS resources. This documentation outlines the key details and input variables for the VPC module.
 
@@ -100,6 +100,10 @@ The VPC module provides the following outputs:
 |--------------------|---------------------------------------------------|
 | `vpc_id`           | The ID of the created VPC.                       |
 | `private_subnets`  | A list of private subnet IDs within the VPC.     |
+
+
+
+
 
 ## ECR Module Documentation
 
