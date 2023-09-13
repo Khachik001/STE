@@ -177,7 +177,7 @@ The Ingress Controller module in this project simplifies the setup of an Ingress
 
 The following table lists the input variables that you can customize when using the Ingress Controller module. These variables allow you to configure the Ingress Controller to work with your EKS cluster:
 
-| Variable Name    | Type   |         Default                 | Description                                                                                   |
+| Variable Name    | Type   |         Default Value                | Description                                                                                   |
 |------------------|--------|---------------------------|-----------------------------------------------------------------------------------------------|
 | `cluster_name`   | String |         - (Required)        |The name of the EKS Cluster where the Ingress Controller should be deployed.    |
 
