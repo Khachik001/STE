@@ -84,7 +84,7 @@ The following table lists the input variables that you can customize when using 
 
 | Variable Name          | Type     | Default Value       | Description                                                                                      |
 |------------------------|----------|----------------------|--------------------------------------------------------------------------------------------------|
-| `vpc_cidr`             | String   | "10.10.0.0/16"      | The IP address range for the VPC, specified in CIDR notation. Customize to your desired range.  |
+| `vpc_cidr`             | String   | "10.10.0.0/16"      | The IP address range for the VPC, specified in CIDR notation with a `/16` prefix. Please ensure that you define the value with the `/16` prefix. The VPC will automatically create 2 public and 2 private subnets, each with a `/24` CIDR range. Customize to your desired `/16` CIDR range.  |
 | `vpc_name`             | String   | "intern_vpc"        | The name of the VPC. Provide a meaningful name for easy identification within your environment. |
 | `enable_dns_support`   | Bool     | true               | Enable or disable DNS resolution support within the VPC.                                      |
 | `enable_dns_hostnames` | Bool     | true               | Enable or disable DNS hostnames within the VPC.                                               |
