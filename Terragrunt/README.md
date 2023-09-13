@@ -63,7 +63,7 @@ In this step, you will configure environment-specific variables for the `dev` en
     
 # Understanding Modules, Inputs, and Default Values
 
-## VPC Module Documentation
+## VPC Module 
 
 The VPC (Virtual Private Cloud) module in this project provides a flexible and customizable way to define the network infrastructure for your AWS resources. This documentation outlines the key details and input variables for the VPC module.
 
@@ -103,7 +103,7 @@ The VPC module provides the following outputs:
 
 
 
-## ECR Module Documentation
+## ECR Module 
 
 The ECR (Elastic Container Registry) module in this project allows you to create and manage Docker container image repositories on AWS. This documentation outlines the key details and input variables for the ECR module.
 
@@ -122,8 +122,9 @@ The ECR (Elastic Container Registry) module in this project allows you to create
 |------------------|--------|----------------|-----------------------------------------------------------------------------------------------|
 | `ecr_repo_name`  | String | "test_ecr" | The name of the ECR repository. Customize this value to specify a unique name for your repository. |
 
+<br> <br> <br> <br> <br> 
 
-## EKS Module Documentation
+## EKS Module 
 
 The EKS (Amazon Elastic Kubernetes Service) module in this project allows you to create and manage Kubernetes clusters on AWS. This documentation outlines the key details, input variables, and dependencies for the EKS module.
 
