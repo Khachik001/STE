@@ -101,6 +101,30 @@ The VPC module provides the following outputs:
 | `vpc_id`           | The ID of the created VPC.                       |
 | `private_subnets`  | A list of private subnet IDs within the VPC.     |
 
+## ECR Module Documentation
+
+The ECR (Elastic Container Registry) module in this project allows you to create and manage Docker container image repositories on AWS. This documentation outlines the key details and input variables for the ECR module.
+
+### Module Details
+
+Here are some essential details about the ECR module:
+
+| Detail           | Description                                       |
+|------------------|---------------------------------------------------|
+| **Module Name**  | `ecr`                                             |
+| **Source**       | `./modules/ecr`                                  |
+| **Purpose**      | Creates an Elastic Container Registry (ECR) repository on AWS. |
+| **Dependencies** | None (standalone module).                        |
+
+### Input Variables
+
+| Variable Name    | Type   | Default Value | Description                                                                                   |
+|------------------|--------|----------------|-----------------------------------------------------------------------------------------------|
+| `ecr_repo_name`  | String | "test_ecr"     | The name of the ECR repository. Customize this value to specify a unique name for your repository. |
+
+
+
+
 
 
 
