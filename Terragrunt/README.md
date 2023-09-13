@@ -2,15 +2,9 @@
 
 Welcome to our Terraform and Terragrunt project for deploying a comprehensive AWS infrastructure stack and Kubernetes cluster for your applications. This project automates the setup of essential components, including a Virtual Private Cloud (VPC), Amazon Elastic Container Registry (ECR), Amazon Elastic Kubernetes Service (EKS), Ingress controller, Argo CD, and an application with an image updater.
 
-## Project Overview
-
-In today's cloud-native world, managing infrastructure and deploying applications efficiently is crucial. This repository simplifies this process by providing infrastructure as code (IaC) templates using Terraform and Terragrunt. By following the step-by-step documentation in this README, you can easily create a well-structured, scalable, and reliable environment for your applications.
-
 ## Getting Started
 
 Before you begin, please review the prerequisites and ensure you have the necessary tools and access. Follow the step-by-step instructions to create your infrastructure and deploy your applications.
-
-Let's get started!
 
 ## Prerequisites
 
