@@ -69,8 +69,6 @@ The VPC (Virtual Private Cloud) module in this project provides a flexible and c
 
 ### Module Details
 
-Here are some essential details about the VPC module:
-
 | Detail           | Description                                       |
 |------------------|---------------------------------------------------|
 | **Module Name**  | `vpc`                                             |
@@ -111,8 +109,6 @@ The ECR (Elastic Container Registry) module in this project allows you to create
 
 ### Module Details
 
-Here are some essential details about the ECR module:
-
 | Detail           | Description                                       |
 |------------------|---------------------------------------------------|
 | **Module Name**  | `ecr`                                             |
@@ -132,8 +128,6 @@ Here are some essential details about the ECR module:
 The EKS (Amazon Elastic Kubernetes Service) module in this project allows you to create and manage Kubernetes clusters on AWS. This documentation outlines the key details, input variables, and dependencies for the EKS module.
 
 ### Module Details
-
-Here are some essential details about the EKS module:
 
 | Detail           | Description                                       |
 |------------------|---------------------------------------------------|
