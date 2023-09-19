@@ -1,4 +1,4 @@
-## 🚀 Automated GitOps Workflow in Action
+# 🚀 Automated GitOps Workflow in Action
 
 Welcome to the core of our GitOps project, where automation takes center stage. This section offers an in-depth exploration of the mechanics of our automated GitOps workflow and introduces the pivotal roles played by key components.
 
@@ -9,7 +9,7 @@ Welcome to the core of our GitOps project, where automation takes center stage. 
 |---------------|--------------------------------------------------------|--------------------------------------------------------------|
 | <img src="terragrunt.png" width="70" height="70">| **Terragrunt** |Designs and provisions AWS resources, ensuring infrastructure aligns seamlessly with code.        |
 | <img src="github-actions.png" width="70" height="70"> | **GitHub Actions** | Responsible for building Docker images automatically whenever code changes are pushed. |
-|<img src="eks.png" width="70" height="70">| **Amazon Elastic Kubernetes Service (EKS)** | Amazon EKS is our Kubernetes cluster manager. It efficiently manages and scales Kubernetes clusters, ensuring a robust and highly available environment for deploying containerized applications. |
+|<img src="eks.png" width="70" height="70">| **Amazon Elastic Kubernetes Service (EKS)** |ECR (Elastic Container Registry) serves as our Docker container image repository, offering secure storage and efficient versioning, thereby facilitating the seamless deployment and scaling of container-based applications within our AWS infrastructure.|
 |<img src="ecr.png" width="70" height="70">| **Amazon Elastic Container Registry (ECR)** |   |
 | <img src="argo.png" width="70" height="70"> | **Argo CD** | Monitors ECR for new images and directs their deployment to the Kubernetes cluster using Helm charts. |
 | <img src="helm.png" width="70" height="70"> | **Helm Charts** | Compose application blueprints, dictating every aspect of deployment configuration. |
